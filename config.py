@@ -16,7 +16,7 @@ class Config:
 class ProdConfig(Config):
     # SQLALCHEMY_DATABASE_URI=os.environ.get('DATABASE_URL')
 
-    SQLALCHEMY_DATABASE_URI= 'postgres://xssplxlupcgmcp:ebf9a96b5c127f10fad32ad4a769d627ef62791d4e86ad382775f51899027dd8@ec2-107-22-238-112.compute-1.amazonaws.com:5432/d51krre9nc5vq5'
+    SQLALCHEMY_DATABASE_URI= 'postgresql://xssplxlupcgmcp:ebf9a96b5c127f10fad32ad4a769d627ef62791d4e86ad382775f51899027dd8@ec2-107-22-238-112.compute-1.amazonaws.com:5432/d51krre9nc5vq5'
 
 class DevConfig(Config):
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:oa2exWako@localhost/redo'
