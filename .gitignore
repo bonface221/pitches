@@ -1,0 +1,5 @@
+env_pitch/
+__pycache__
+*pyc 
+.vscode
+start.sh
